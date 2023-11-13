@@ -1,0 +1,41 @@
+.container-bg-3 {
+    padding: 50px 136px;
+    
+
+ }
+ .content-questional-1 {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 700;
+   padding-bottom: 16px;
+ }
+ .information {
+    display: flex;
+    gap: 32px;
+    padding-top: 40px;
+
+ }
+
+
+ @media screen and (max-width: 360px) {
+   .container-bg-3 {
+      padding: 270px 16px 80px 0px;
+   }
+   .content-questional-1 {
+      text-align: center;
+   }
+   .information {
+      padding-left: 16px;
+      flex-wrap: wrap;
+
+   }
+   
+  
+ }
+  
+
+   
+ 

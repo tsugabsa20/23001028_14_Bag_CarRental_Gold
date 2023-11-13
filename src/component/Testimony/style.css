@@ -1,0 +1,117 @@
+.container-bg-4 {
+    padding-top: 50px;
+}
+.commentary-text    {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+
+}
+.personal-bg {
+    display: flex;
+    padding: 40px;
+    gap: 32px;
+    justify-content: center;
+    align-content: center;
+}
+.personal-commentary {
+    display: flex;
+    width: 619px;
+    height: 270px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F1F3FF;
+    margin-left: 410px;
+    
+
+}
+.image-profil-1 {
+    width: 80px;
+    height: 80px;
+    padding: 95px 46px;
+
+}
+.position-text-1 {
+    padding: 69px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.star-position {
+    display: flex;
+}
+.personal-commentary-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 14px;
+
+}
+.personal-commentary-text >h3 {
+    
+    width: 415px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 14px;
+}
+.button-2 {
+    display: flex;
+    padding: 30px 682px;
+    gap: 30px;
+    
+
+}
+.arrow-1 > button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.arrow-1 > button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 360px) {
+    .container-bg-4 {
+        padding: 10px 16px;
+    }
+    .personal-bg {
+        flex-wrap: wrap;
+        padding: 16px 0px;
+        
+    }
+    .personal-commentary {
+        flex-direction: column;
+        width: 328px;
+        height: 392px;
+        margin-left: 16px;
+        align-items: center;
+    
+    }
+    .image-profil-1 {
+        padding: 20px 140px 2px;
+        justify-content: center;
+    }
+    .position-text-1 {
+        padding: 12px
+    }
+    .star-position {
+        justify-content: center;
+    }
+    .personal-commentary-text {
+        padding: 12px 32px;
+       
+    }
+    .personal-commentary-text >h3 {
+        width: 210px;
+    }
+    .button-2 {
+        padding: 0px 142px;
+    }
+}

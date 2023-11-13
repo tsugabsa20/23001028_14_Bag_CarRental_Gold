@@ -1,0 +1,64 @@
+.container-bg-5 {
+    padding: 50px 136px;
+} 
+.content-bg-5 {
+    width: auto;
+    height: 326px;
+    border-radius: 13px;
+    background: var(--primary-dark-blue-04, #0D28A6);
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:52px;
+}
+.content-5 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-align: center;
+}
+.content-5 >h2 {
+    font-size: 36px;
+    font-style: normal;
+    
+    
+}
+.content-5 >p {
+    font-size: 14px;
+    
+}
+.button-3 > button {
+    display: inline-flex;
+    height: 36px;
+    width: 140px;
+    padding: 8px 12px;
+    border: 2px solid #5CB85F;
+    color: #FFFFFF;
+    background-color:#5CB85F ;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.klik {
+    display: inline-flex;
+    height: 36px;
+    width: 140px;
+    padding: 8px 12px;
+    border: 2px solid #5CB85F;
+    color: #FFFFFF;
+    background-color:#5CB85F ;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+@media screen and (max-width: 360px) {
+    .container-bg-5 {
+        padding: 66px 16px;
+    }
+    
+}

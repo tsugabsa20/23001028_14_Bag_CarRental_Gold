@@ -1,0 +1,120 @@
+* {
+    
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-navbar-bg {
+    width: 100%;
+    height: 266px;
+    flex-shrink: 0;
+    background: #F1F3FF;
+    
+
+}
+.container-navbar-head {
+    padding: 25px 136px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 628px;
+}
+
+.container-navbar-left>img{
+    width: 100px;
+    height: 34px;
+    
+    
+}
+.container-navbar-right {
+    width: 100%;
+}
+.menu {
+    display: none
+}
+.list-menu {
+    display: inline-flex;
+    gap: 32px; 
+}
+.menu-icon {
+    display: none;
+}
+.list-menu >a {
+    color: #000000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+@media screen and (max-width: 360px) {
+    .container-navbar-bg {
+        width: 360px;
+        height: 232px;
+    }
+    .container-navbar-head {
+        padding-top: 24px;
+        padding-left: 26px;
+        padding-bottom: 32px;
+        gap: 160px;
+
+    }
+    .container-navbar-right {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .menu-icon {
+        display: flex;
+        font-size: 30px;
+
+    }
+    .fa {
+        position: fixed;
+    }
+    .menu-icon {
+        display: flex;
+        align-items: center;
+        
+        
+    }
+    .list-menu {
+        display: none;
+    }
+    .menu-active {
+        display: flex;
+        flex-direction: column;
+        color: #000000;
+        flex-wrap: wrap;
+        background: white;
+        margin-left: -150px;
+        width: 180px;
+        height: 640px;
+        position: fixed;
+        gap: 16px;
+        padding: 16px;
+        margin: -40px -100px;
+        
+    }
+    .menu-active > a {
+        color: #000000;
+    }
+    .fa {
+        display: flex;
+    }
+    .menu > a {
+        color: #000000;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+        
+    }
+    .menu > h5 {
+        font-size: 14px;
+        font-weight: 700;
+    }
+}     
+
+  
+
